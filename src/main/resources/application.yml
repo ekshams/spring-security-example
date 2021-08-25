@@ -1,0 +1,10 @@
+#spring:
+#  security:
+#    user:
+#      name: user
+#      password: user
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
